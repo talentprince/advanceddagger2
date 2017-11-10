@@ -9,7 +9,8 @@ import dagger.android.AndroidInjectionModule;
         dependencies = FoodComponent.class,
         modules = { AndroidInjectionModule.class,
                 AnimalModule.class,
-                ActivityModule.class,
+                AcitivtyInjectModule.class,
+                FragmentModule.class,
                 PetModule.class}
 )
 public interface AnimalComponent {
