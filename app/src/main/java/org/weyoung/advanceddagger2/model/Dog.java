@@ -5,7 +5,6 @@ import android.util.Log;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-//@Singleton
 public class Dog implements Pet {
     @Inject
     public Dog(Leg leg) {

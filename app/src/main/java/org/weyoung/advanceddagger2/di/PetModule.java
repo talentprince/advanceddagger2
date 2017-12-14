@@ -3,6 +3,8 @@ package org.weyoung.advanceddagger2.di;
 import org.weyoung.advanceddagger2.model.Dog;
 import org.weyoung.advanceddagger2.model.Pet;
 
+import javax.inject.Singleton;
+
 import dagger.Binds;
 import dagger.Module;
 
